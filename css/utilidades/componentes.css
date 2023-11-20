@@ -1,5 +1,15 @@
 /* Botão */
-.botao{
+.container{
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.botao {
   padding: 16px 32px;
   display: inline-block;
   background: linear-gradient(#ffbb00, #f2a50c);
@@ -7,17 +17,14 @@
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: var(--cor-p5);
-  font-size: 18px;
-  line-height: 1.33;
-  font-family: 'Poppins';
-    font-weight: 600;
+  font: 600 1.125rem/1.35 "Poppins", sans serif;
 }
 .botao:hover {
   background: linear-gradient(#ffbb00, #e59317);
 }
-@media (max-width: 600px){
-  .botao{
+@media (max-width: 600px) {
+  .botao {
     padding: 12px 16px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
