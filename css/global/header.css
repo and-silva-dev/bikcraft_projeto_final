@@ -31,7 +31,7 @@
   position: absolute;
   box-shadow: 0px 2px 0px  #ffffff;
 }
-.header-menu a:hover:after {
+.header-menu a:hover::after , .header-menu a.ativo::after {
   width: 100%;
  
 }
